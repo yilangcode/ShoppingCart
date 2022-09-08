@@ -3,6 +3,7 @@ package com.thoughtworks.codepairing.model;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -56,6 +57,7 @@ public class ShoppingCartTest {
         Order order = cart.checkout();
 
         assertEquals(90.0, order.getTotalPrice(), 0.0);
+
     }
 
     @Test

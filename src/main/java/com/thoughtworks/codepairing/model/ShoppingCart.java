@@ -40,6 +40,7 @@ public class ShoppingCart {
                 realSpending = product.getPrice() * count * (100 - discount) / 100;
                 totalPrice += realSpending;
                 loyaltyPointsEarned += product.getPrice() * count /discount;
+
             }else{
                 realSpending = product.getPrice() * count;
                 totalPrice += realSpending;
